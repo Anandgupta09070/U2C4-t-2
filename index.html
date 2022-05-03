@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="common.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(30, 121, 163);
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1><a href="index.html"> Home Page</a></h1>
+      <h1><a href="matches.html">Matches</a></h1>
+      <h1><a href="Favourites.html">Favourites</a></h1>
+    </div>
+    <select id="filterVenue">
+      <option value="">Filter by venue</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Banglore">Banglore</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Pune">Pune</option>
+    </select>
+    <h1>Match schedule</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Match Number</th>
+          <th>Team A</th>
+          <th>Team B</th>
+          <th>Date</th>
+          <th>Venue</th>
+          <th>Favourite</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
+<script src="index.js"></script>
+
+
+
+
